@@ -1,0 +1,48 @@
+import Container from "../Layouts/Container";
+import { FaCar } from 'react-icons/fa'; 
+import { MdOutlineRefresh } from "react-icons/md";
+
+
+
+const Warranty = () => {
+  return (
+    <div>
+      
+      <Container>
+        <div className="flex justify-between py-14 ">
+
+          <div className="w-[300px] bg-white shadow-md hover:shadow-md/30 transition px-5">
+            <div className="flex items-center gap-3">
+              <p className="font-bold text-[20px] font-sans">2</p>
+              <p>Two years warranty</p>
+            </div>
+          </div>
+
+
+          <div className="w-[200px] bg-white shadow-md hover:shadow-md/30 transition px-5">
+            <div className="flex items-center gap-3">
+              <p className="font-bold text-[20px] font-sans"><FaCar/></p>
+              <p>Free shipping</p>
+            </div>
+          </div>
+
+
+          <div className="w-[300px] bg-white shadow-md hover:shadow-md/30 transition px-5">
+            <div className="flex items-center gap-3">
+              <p className="font-bold text-[20px] font-sans"><MdOutlineRefresh /></p>
+              <p>Two years warranty</p>
+            </div>
+          </div>
+
+        </div>
+        
+
+          
+
+       
+      </Container>
+    </div>
+  );
+};
+
+export default Warranty;
