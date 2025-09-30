@@ -30,7 +30,7 @@ const Warranty = () => {
           <div className="w-[300px] bg-white shadow-md hover:shadow-md/30 transition px-5">
             <div className="flex items-center gap-3">
               <p className="font-bold text-[20px] font-sans"><MdOutlineRefresh /></p>
-              <p>Two years warranty</p>
+              <p>Return policy in 30 days</p>
             </div>
           </div>
 

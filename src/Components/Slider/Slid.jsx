@@ -19,25 +19,19 @@ const Slid = () => {
     <div>
       
       <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        
-        
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide><img src={Headphone} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={Woman} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={First} alt="" /></SwiperSlide>
-        {/* <SwiperSlide><img src={Headphone} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={Headphone} alt="" /></SwiperSlide> */}
-       
-        
-      </Swiper>
+  spaceBetween={30}
+  centeredSlides={true}
+  loop={true} 
+  autoplay={{
+    delay: 2500,
+    disableOnInteraction: false,
+  }}
+  modules={[Autoplay, Pagination, Navigation]}
+  className="mySwiper">
+  <SwiperSlide><img src={Headphone} alt="" /></SwiperSlide>
+  <SwiperSlide><img src={Woman} alt="" /></SwiperSlide>
+  <SwiperSlide><img src={First} alt="" /></SwiperSlide>
+</Swiper>
     </div>
   )
 }
