@@ -6,3 +6,6 @@
   --font-sans: "DM Sans", sans-serif; 
 }
 
+.slider-container{
+  overflow: hidden;
+}

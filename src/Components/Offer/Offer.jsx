@@ -3,14 +3,14 @@ import Container from "../Layouts/Container"
 
 const Offer = () => {
   return (
-    <div>
+    <div className="ml-10">
       <Container>
         <div className="text-[30px] font-bold">
           <h3>Special Offers</h3>
         </div>
 
 
-        <div className="flex justify-between">
+        <div className="md:flex justify-between">
           <div>
             <div className="relative group bg-[url(./assets/cap.png)] px-20 py-40 w-[300px] bg-no-repeat mt-4">
         <div className="absolute bottom-0 left-0 opacity-0   group-hover:opacity-100 group-hover:bottom-0 ">
@@ -21,7 +21,7 @@ const Offer = () => {
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Compare</p>
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Add to Cart</p>
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">View Details</p>
-              <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Add to Wish Lis</p>
+              <p className=" ml-3 text-[rgb(131,118,118)]">Add to Wish Lis</p>
 
             </div>
           </div>
@@ -53,7 +53,7 @@ const Offer = () => {
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Compare</p>
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Add to Cart</p>
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">View Details</p>
-              <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Add to Wish Lis</p>
+              <p className=" ml-3 text-[rgb(131,118,118)]">Add to Wish Lis</p>
 
             </div>
           </div>
@@ -85,7 +85,7 @@ const Offer = () => {
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Compare</p>
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Add to Cart</p>
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">View Details</p>
-              <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Add to Wish Lis</p>
+              <p className=" ml-3 text-[rgb(131,118,118)]">Add to Wish Lis</p>
 
             </div>
           </div>
@@ -118,7 +118,7 @@ const Offer = () => {
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Compare</p>
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Add to Cart</p>
               <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">View Details</p>
-              <p className="border-b-1 border-[rgb(229,231,235)] ml-3 text-[rgb(131,118,118)]">Add to Wish Lis</p>
+              <p className=" ml-3 text-[rgb(131,118,118)]">Add to Wish Lis</p>
 
             </div>
           </div>
