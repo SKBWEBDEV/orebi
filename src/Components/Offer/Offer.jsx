@@ -3,7 +3,7 @@ import Container from "../Layouts/Container"
 
 const Offer = () => {
   return (
-    <div className="">
+    <div className="ml-3">
       <Container>
         <div className="text-[30px] font-bold">
           <h3>Special Offers</h3>
