@@ -45,7 +45,7 @@ function Arrivals() {
     ]
   };
   return (
-    <div className="slider-container md:mt-20 mt-10 ml-10">
+    <div className="slider-container md:mt-20 mt-10 ">
       
       <Container>
         <div className="text-[30px] font-bold  ">

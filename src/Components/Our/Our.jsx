@@ -2,7 +2,7 @@ import Container from "../Layouts/Container"
 
 const Our = () => {
   return (
-    <div className="md:mt-20 mt-10 ml-10">
+    <div className="md:mt-20 mt-10 ">
       <Container>
         <div className="text-[30px] font-bold">
           <h3>Our Bestsellers</h3>
