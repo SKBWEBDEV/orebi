@@ -11,7 +11,7 @@ const Search = () => {
       <Container>
         <div className="md:flex  justify-between items-center">
           <div className="flex items-center gap-2"><HiBars2 className="text-2xl"/><p>Shop by Category</p></div>
-          <div className="flex mt-4 items-center px-5 rounded-lg  bg-white  "><input className="md:mr-20  md:pr-80 pr-30 md:py-5 py-3 border-none outline-none " type="text" placeholder="Search your product here" />
+          <div className="flex mt-4 items-center px-5 rounded-lg  bg-white  "><input className="md:mr-20  md:pr-80 pr-20 md:py-5 py-3 border-none outline-none " type="text" placeholder="Search your product here" />
           
           <p><FaSearch className="text-2xl"/></p>
           </div>
