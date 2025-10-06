@@ -11,7 +11,7 @@ const Warranty = () => {
       <Container>
         <div className="md:flex justify-between md:py-14 py-7 ">
 
-          <div className="md:w-[300px] mt-4 bg-white shadow-md hover:shadow-md/30 transition px-5">
+          <div className="md:w-[300px] mt-4 bg-white shadow-md hover:shadow-md/30 transition delay-150 duration-300 ease-in-out px-5 ">
             <div className="flex items-center gap-3">
               <p className="font-bold text-[20px] font-sans">2</p>
               <p>Two years warranty</p>
@@ -19,7 +19,7 @@ const Warranty = () => {
           </div>
 
 
-          <div className="md:w-[200px] mt-4 bg-white shadow-md hover:shadow-md/30 transition px-5">
+          <div className="md:w-[200px] mt-4 bg-white shadow-md hover:shadow-md/30 transition delay-150 duration-300 ease-in-out px-5">
             <div className="flex items-center gap-3">
               <p className="font-bold text-[20px] font-sans"><FaCar/></p>
               <p>Free shipping</p>
@@ -27,7 +27,7 @@ const Warranty = () => {
           </div>
 
 
-          <div className="md:w-[300px] mt-4 bg-white shadow-md hover:shadow-md/30 transition px-5">
+          <div className="md:w-[300px] mt-4 bg-white shadow-md hover:shadow-md/30 transition delay-150 duration-300 ease-in-out px-5">
             <div className="flex items-center gap-3">
               <p className="font-bold text-[20px] font-sans"><MdOutlineRefresh /></p>
               <p>Return policy in 30 days</p>
